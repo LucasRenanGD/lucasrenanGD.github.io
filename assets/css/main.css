@@ -1,6 +1,11 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
 
+@font-face {
+	font-family: zhnayuk;
+	src: url('zhnayuk.otf');
+}
+
 /*
 	Dopetrope by HTML5 UP
 	html5up.net | @ajlkn

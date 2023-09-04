@@ -8,225 +8,280 @@
 -->
 <html>
 
-<head>
-	<title>Lucas Renan - Portfólio</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="icon" type="image/x-icon" href="images/GD.png">
-	<link rel="stylesheet" href="assets/css/main.css" />
-</head>
+    <head>
+        <title>Lucas Renan - Portfólio</title>
+        <meta charset="utf-8" />
+        <meta name="viewport"
+            content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="icon" type="image/x-icon" href="images/GD.png">
+        <link rel="stylesheet" href="assets/css/main.css" />
+    </head>
 
-<body class="right-sidebar is-preload">
-    <div id="page-wrapper">
+    <body class="right-sidebar is-preload">
+        <div id="page-wrapper">
 
-		<!-- Header -->
-		<section id="header">
+            <!-- Header -->
+            <section id="header">
 
-			<!-- Logo -->
-			<h1><a href="index.html">LUCAS RENAN - PORTFOLIO</a></h1>
+                <!-- Logo -->
+                <h1><a href="index.html">LUCAS RENAN - PORTFOLIO</a></h1>
 
-			<!-- Nav -->
-			<nav id="nav">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">Sobre</a></li>
-					<li class="current"><a href="index.html#Portfolio">Portfólio</a></li>
-					<li><a target="_blank" href="images/Curriculo.pdf">Currículo</a></li>
-					<li><a href="#Contato">Contato</a></li>
-				</ul>
-			</nav>
-		</section>
+                <!-- Nav -->
+                <nav id="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">Sobre</a></li>
+                        <li class="current"><a href="index.html#Portfolio">Portfólio</a></li>
+                        <li><a target="_blank" href="images/LUCAS RENAN - Currículo Game Designer.pdf">Currículo</a></li>
+                        <li><a href="#Contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </section>
 
-        <!-- Main -->
-        <section id="main">
-            <div class="container">
-                <div class="row">
-                    <div class="col-8 col-12-medium">
+            <!-- Main -->
+            <section id="main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-8 col-12-medium">
 
-                        <!-- Content -->
-                        <article class="box post">
-                            <a href="#" class="image featured"><img
-                                    src="images/PsychoPlushies/PsychoPlushies - Loadingbar.png" alt="" /></a>
-                            <header>
-                                <h2>Psycho Plushies</h2>
-                                <!-- <p>Lorem ipsum dolor sit amet feugiat</p> -->
-                            </header>
-                            <p>
-                                Nesse projeto trabalhei profissionalmente no estúdio JetDragon Studios na modalidade
-                                Home Office onde participei do desenvolvimento do Psycho Plushies e auxiliei no design
-                                de um outro projeto do estúdio. Até o presente momento estou no estúdio há 11 meses.
-                                <a href="#" class="image "><img
-                                        src="images/PsychoPlushies/PsychoPlushies - Character.png" alt="" /></a>
-                            </p>
-                            <p>
-                                Em Psycho Plushies desenvolvi Core Gameplay, Status Effects e Quest System entre outros
-                                dos principais sistemas do jogo. Quando entrei no projeto ele estava em estágio de
-                                protótipo e com o código em um estado não adequado para produção, então refatorei o
-                                código do projeto todo.
-                                <a href="#" class="image "><img
-                                        src="images/PsychoPlushies/PsychoPlushies - Equipment.png" alt="" /></a>
-                            </p>
-                            <p>
-                                Além de Unity Developer um dos meus papéis era de Technical Game Designer. Nele meus
-                                principais focos foram:
-                                <br>
-                                -Sugerir alterações no design do jogo para que ele fosse traduzido de maneira mais clara
-                                em código.
-                                <br>
-                                -Criar ferramentas que auxiliassem o Game Designer a implementar sua visão dentro do
-                                jogo.
-                            </p>
-                            <p>
-                                Uma dessas ferramentas foi o sistema de buffs que foi todo pensado para que o designer
-                                pudesse criar diferentes efeitos de forma rápida, para isso utilizei Scriptable Objects
-                                e criei uma base em código para que novos efeitos pudessem ser programados de forma
-                                simples e eficiente.
-                                <iframe src="images/PsychoPlushies/PsychoPlushies - buff base.mp4" width="100%"
-                                    height="600" frameborder="0"></iframe>
-                                Nesse status, por exemplo, o Designer pode decidir coisas como se o efeito é positivo ou
-                                negativo (buff/debuff), qual sua duração em turnos, qual status ele afeta e se ele afeta
-                                de forma fixa o status ou se aumenta uma porcentagem.
-                                Cada status tem suas particularidades e vai ser mostrado de forma diferente no
-                                inspector.
-                                <iframe src="images/PsychoPlushies/PsychoPlushies - Buff.mp4" width="100%" height="600"
-                                    frameborder="0"></iframe>
-                            </p>
-                            <p>
-                                As habilidades seguiram o mesmo padrão de utilização de scriptable objects e possuem
-                                quatro categorias base. Cada Plushie possui três habilidades diferentes, sendo elas
-                                basic, medium e ultimate.
-                                <a href="#" class="image centered"><img
-                                        src="images/PsychoPlushies/PsychoPlushies - Ability base.png" alt="" /></a>
-                                Nessa habilidade, por exemplo, o Designer pode decidir:
-                                <br>
-                                -A sua classe.
-                                <br>
-                                -Se ela é melee ou Ranged.
-                                <br>
-                                -Qual sua chance de acerto base (Antes de ser aplicado modificadores).
-                                <br>
-                                -Pode adicionar um buff/debuff que terá chance de acontecer ao usar essa habilidade,
-                                qual a porcentagem de chance dele ser aplicado e quais alvos receberão esse buff
-                                (Exemplo, ele pode atacar um inimigo e buffar todos os aliados).
-                                <br>
-                                -Pode selecionar como será priorizado o alvo do ataque caso o jogo esteja acontecendo em
-                                Autoplay (Por exemplo, focar o inimigo com menos vida).
-                                <iframe src="images/PsychoPlushies/PsychoPlushies - Ability.mp4" width="100%"
-                                    height="600" frameborder="0"></iframe>
-                            </p>
-                            <p>
-                                Por fim, o designer pode criar os objetos referentes aos personagens e adicionar essas
-                                habilidades que ele criou de forma simples e rápida, facilitando o processo de testes e
-                                não precisando depender de um desenvolvedor para balancear novas fases.
-                                <a href="#" class="image centered"><img
-                                        src="images/PsychoPlushies/PsychoPlushies - Character Scriptable.png"
-                                        alt="" /></a>
-                            </p>
-                            <p>
-                                <a href="#" class="image"><img src="images/PsychoPlushies/PsychoPlushies - pink.png"
-                                        alt="" /></a>
-                            </p>
-                        </article>
+                            <!-- Content -->
+                            <article class="box post">
+                                <a href="#" class="image featured"><img
+                                        src="images/PsychoPlushies/PsychoPlushies - Loadingbar.png"
+                                        alt /></a>
+                                <header>
+                                    <h2>Psycho Plushies</h2>
+                                    <!-- <p>Lorem ipsum dolor sit amet feugiat</p> -->
+                                </header>
+                                <p>
+                                    Nesse projeto trabalhei profissionalmente no
+                                    estúdio JetDragon Studios na modalidade
+                                    Home Office onde participei do
+                                    desenvolvimento do Psycho Plushies e
+                                    auxiliei no design
+                                    de um outro projeto do estúdio.
+                                    <a href="#" class="image "><img
+                                            src="images/PsychoPlushies/PsychoPlushies - Character.png"
+                                            alt /></a>
+                                </p>
+                                <p>
+                                    Em Psycho Plushies desenvolvi Core Gameplay,
+                                    Status Effects e Quest System entre outros
+                                    dos principais sistemas do jogo. Quando
+                                    entrei no projeto ele estava em estágio de
+                                    protótipo e com o código em um estado não
+                                    adequado para produção, então refatorei o
+                                    código do projeto todo.
+                                    <a href="#" class="image "><img
+                                            src="images/PsychoPlushies/PsychoPlushies - Equipment.png"
+                                            alt /></a>
+                                </p>
+                                <p>
+                                    Além de Unity Developer um dos meus papéis
+                                    era de Technical Game Designer. Nele meus
+                                    principais focos foram:
+                                    <br>
+                                    -Sugerir alterações no design do jogo para
+                                    que ele fosse traduzido de maneira mais
+                                    clara
+                                    em código.
+                                    <br>
+                                    -Criar ferramentas que auxiliassem o Game
+                                    Designer a implementar sua visão dentro do
+                                    jogo.
+                                </p>
+                                <p>
+                                    Uma dessas ferramentas foi o sistema de
+                                    buffs que foi todo pensado para que o
+                                    designer
+                                    pudesse criar diferentes efeitos de forma
+                                    rápida, para isso utilizei Scriptable
+                                    Objects
+                                    e criei uma base em código para que novos
+                                    efeitos pudessem ser programados de forma
+                                    simples e eficiente.
+                                    <iframe
+                                        src="images/PsychoPlushies/PsychoPlushies - buff base.mp4"
+                                        width="100%"
+                                        height="600" frameborder="0"></iframe>
+                                    Nesse status, por exemplo, o Designer pode
+                                    decidir coisas como se o efeito é positivo
+                                    ou
+                                    negativo (buff/debuff), qual sua duração em
+                                    turnos, qual status ele afeta e se ele afeta
+                                    de forma fixa o status ou se aumenta uma
+                                    porcentagem.
+                                    Cada status tem suas particularidades e vai
+                                    ser mostrado de forma diferente no
+                                    inspector.
+                                    <iframe
+                                        src="images/PsychoPlushies/PsychoPlushies - Buff.mp4"
+                                        width="100%" height="600"
+                                        frameborder="0"></iframe>
+                                </p>
+                                <p>
+                                    As habilidades seguiram o mesmo padrão de
+                                    utilização de scriptable objects e possuem
+                                    quatro categorias base. Cada Plushie possui
+                                    três habilidades diferentes, sendo elas
+                                    basic, medium e ultimate.
+                                    <a href="#" class="image centered"><img
+                                            src="images/PsychoPlushies/PsychoPlushies - Ability base.png"
+                                            alt /></a>
+                                    Nessa habilidade, por exemplo, o Designer
+                                    pode decidir:
+                                    <br>
+                                    -A sua classe.
+                                    <br>
+                                    -Se ela é melee ou Ranged.
+                                    <br>
+                                    -Qual sua chance de acerto base (Antes de
+                                    ser aplicado modificadores).
+                                    <br>
+                                    -Pode adicionar um buff/debuff que terá
+                                    chance de acontecer ao usar essa habilidade,
+                                    qual a porcentagem de chance dele ser
+                                    aplicado e quais alvos receberão esse buff
+                                    (Exemplo, ele pode atacar um inimigo e
+                                    buffar todos os aliados).
+                                    <br>
+                                    -Pode selecionar como será priorizado o alvo
+                                    do ataque caso o jogo esteja acontecendo em
+                                    Autoplay (Por exemplo, focar o inimigo com
+                                    menos vida).
+                                    <iframe
+                                        src="images/PsychoPlushies/PsychoPlushies - Ability.mp4"
+                                        width="100%"
+                                        height="600" frameborder="0"></iframe>
+                                </p>
+                                <p>
+                                    Por fim, o designer pode criar os objetos
+                                    referentes aos personagens e adicionar essas
+                                    habilidades que ele criou de forma simples e
+                                    rápida, facilitando o processo de testes e
+                                    não precisando depender de um desenvolvedor
+                                    para balancear novas fases.
+                                    <a href="#" class="image centered"><img
+                                            src="images/PsychoPlushies/PsychoPlushies - Character Scriptable.png"
+                                            alt /></a>
+                                </p>
+                                <p>
+                                    <a href="#" class="image"><img
+                                            src="images/PsychoPlushies/PsychoPlushies - pink.png"
+                                            alt /></a>
+                                </p>
+                            </article>
 
-                    </div>
+                        </div>
 
-                    <div class="col-4 col-12-medium imp-medium">
-                        <!-- Sidebar -->
-                        <section class="box" style="padding-bottom: 1em;">
-                            <a href="#" class="image"><img src="images/PsychoPlushies/PsychoPlushies - logo2.png"
-                                    alt="" /></a>
-                            <header>
-                                <h3>Sobre</h3>
-                            </header>
-                            <p>Psycho Plushies são bichinhos de pelúcia fofos que foram possuídos por espíritos. No jogo
-                                você controla um time com 4 Plushies, cada um com 3 habilidades, e enfrenta outros
-                                jogadores através de batalhas por turno.
-                            <ul>
-                                <li>Engine: Unity</li>
-                                <li>Gênero: collectible turn-based strategy</li>
-                                <li>Plataforma: Mobile</li>
-                                <li>Estúdio: JetDragon Studios</li>
-                                <li>Tamanho do time: 4 pessoas</li>
-                            </ul>
-                            </p>
-                        </section>
-                        <section class="box">
-                            <header>
-                                <h2>Participação</h2>
-                            </header>
-                            <p>Meus principais papéis eram de conversar com o designer para facilitar implementações em
-                                código e criar ferramentas que auxiliassem na implementação dentro da engine.
-                            </p>
-                            <ul style="margin-top: -.75em;">
-                                <li>Unity Developer</li>
-                                <li>Technical Game Designer</li>
-                            </ul>
-                        </section>
+                        <div class="col-4 col-12-medium imp-medium">
+                            <!-- Sidebar -->
+                            <section class="box" style="padding-bottom: 1em;">
+                                <a href="#" class="image"><img
+                                        src="images/PsychoPlushies/PsychoPlushies - logo2.png"
+                                        alt /></a>
+                                <header>
+                                    <h3>Sobre</h3>
+                                </header>
+                                <p>Psycho Plushies são bichinhos de pelúcia
+                                    fofos que foram possuídos por espíritos. No
+                                    jogo
+                                    você controla um time com 4 Plushies, cada
+                                    um com 3 habilidades, e enfrenta outros
+                                    jogadores através de batalhas por turno.
+                                    <ul>
+                                        <li>Engine: Unity</li>
+                                        <li>Gênero: collectible turn-based
+                                            strategy</li>
+                                        <li>Plataforma: Mobile</li>
+                                        <li>Estúdio: JetDragon Studios</li>
+                                        <li>Tamanho do time: 4 pessoas</li>
+                                    </ul>
+                                </p>
+                            </section>
+                            <section class="box">
+                                <header>
+                                    <h2>Participação</h2>
+                                </header>
+                                <p>Meus principais papéis eram de conversar com
+                                    o designer para facilitar implementações em
+                                    código e criar ferramentas que auxiliassem
+                                    na implementação dentro da engine.
+                                </p>
+                                <ul style="margin-top: -.75em;">
+                                    <li>Unity Developer</li>
+                                    <li>Technical Game Designer</li>
+                                </ul>
+                            </section>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-		<!-- Footer -->
-		<section id="footer">
-			<div class="container">
-				<div class="row">
-					<div class="col-4 col-12-medium">
-						<section>
-							<header>
-								<h2 id="Contato">Entre em Contato</h2>
-							</header>
-							<ul class="social">
-								<li><a class="icon fa-envelope"
-										href="mailto:lucas.renans25@gmail.com?Subject=Contact From Portfolio"><span
-											class="label">Email</span></a></li>
-								<li><a class="icon brands fa-linkedin-in" target="_blank"
-										href="https://www.linkedin.com/in/lucas-renan"><span
-											class="label">LinkedIn</span></a></li>
-								<li><a class="icon fa-file-alt" target="_blank" href="images/Curriculo.pdf"><span
-											class="label">Currículo</span></a></li>
-							</ul>
-							<ul class="contact">
-								<li>
-									<h3>E-Mail</h3>
-									<p><a
-											href="mailto:lucas.renans25@gmail.com?Subject=Contact From Portfolio">lucas.renans25@gmail.com</a>
-									</p>
-								</li>
-								<li>
-									<h3>Endereço</h3>
-									<p>
-										São José dos Campos - SP
-									</p>
-								</li>
-							</ul>
-						</section>
-					</div>
-					<div class="col-12">
+            <!-- Footer -->
+            <section id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4 col-12-medium">
+                            <section>
+                                <header>
+                                    <h2 id="Contato">Entre em Contato</h2>
+                                </header>
+                                <ul class="social">
+                                    <li><a class="icon fa-envelope"
+                                            href="mailto:lucas.renans25@gmail.com?Subject=Contact From Portfolio"><span
+                                                class="label">Email</span></a></li>
+                                    <li><a class="icon brands fa-linkedin-in"
+                                            target="_blank"
+                                            href="https://www.linkedin.com/in/lucas-renan"><span
+                                                class="label">LinkedIn</span></a></li>
+                                    <li><a class="icon fa-file-alt"
+                                            target="_blank"
+                                            href="images/LUCAS RENAN - Currículo Game Designer.pdf"><span
+                                                class="label">Currículo</span></a></li>
+                                </ul>
+                                <ul class="contact">
+                                    <li>
+                                        <h3>E-Mail</h3>
+                                        <p><a
+                                                href="mailto:lucas.renans25@gmail.com?Subject=Contact From Portfolio">lucas.renans25@gmail.com</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h3>Endereço</h3>
+                                        <p>
+                                            São José dos Campos - SP
+                                        </p>
+                                    </li>
+                                </ul>
+                            </section>
+                        </div>
+                        <div class="col-12">
 
-						<!-- Copyright -->
-						<div id="copyright">
-							<ul class="links">
-								<li>&copy; 2022 Lucas Renan </li>
-								<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
+                            <!-- Copyright -->
+                            <div id="copyright">
+                                <ul class="links">
+                                    <li>&copy; 2023 Lucas Renan </li>
+                                    <li>Design: <a href="http://html5up.net">HTML5
+                                            UP</a></li>
+                                </ul>
+                            </div>
 
-					</div>
-				</div>
-			</div>
-		</section>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-    </div>
+        </div>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.dropotron.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.dropotron.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
 
-</body>
+    </body>
 
 </html>
